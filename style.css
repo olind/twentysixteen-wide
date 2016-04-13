@@ -1,0 +1,30 @@
+/*
+Theme Name: Twenty Sixteen Wide
+Theme URI: https://github.com/olind/twentysixteen-wide
+Author: Ola Lindberg
+Author URI: http://olalindberg.com
+Template:     twentysixteen
+Description: A child theme for Twenty Sixteen that includes a template for a full width layout.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, red, white, yellow, dark, light, one-column, two-columns, right-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, full-width
+Text Domain: twentysixteen-wide
+*/
+
+.page-template-full-width .content-area {
+    float: initial;
+    margin-right: initial;
+    width: auto;
+}
+
+.page-template-full-width .entry-content {
+    margin-right: 7.6923%;
+}
+
+@media screen and (min-width: 56.875em) {
+    .page-template-full-width .entry-content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
